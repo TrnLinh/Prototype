@@ -1,0 +1,57 @@
+    @import url(menu.css);
+
+
+
+    /* heading*/
+    .heading {
+        position: absolute;
+        bottom: 50px;
+        left: 70px;
+        display: flex;
+
+    }
+
+    .section-header span {
+        font-size: 10em;
+
+    }
+
+    .section-header span:nth-child(1) {
+        margin-right: 40px;
+        color: var(--black);
+    }
+
+    .section-header .scroll {
+        color: var(--main) !important;
+    }
+
+    /* second section*/
+    .second {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    .wrap {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .grid-container .grid-items:nth-child(1) {}
+
+    .grid-container .grid-items:nth-child(2) {
+        grid-column: 2/4;
+    }
+
+    .grid-items .about-header {
+        font-size: 2em;
+        color: var(--black);
+        font-weight: 700;
+    }

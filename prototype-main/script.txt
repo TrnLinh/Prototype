@@ -1,0 +1,16 @@
+(function () {
+  $(".hamburger-menu").on("click", function () {
+    $(".bar").toggleClass("animate");
+    var mobileNav = $(".mobile-nav");
+    mobileNav.toggleClass("hide show");
+  });
+})();
+
+document
+  .querySelector(".hamburger-menu")
+  .addEventListener("click", function () {
+    document.querySelector(".bar").classList.toggle("animate");
+    var mobileNav = document.querySelector(".mobile-nav");
+    mobileNav.classList.toggle("hide show");
+  });
+
